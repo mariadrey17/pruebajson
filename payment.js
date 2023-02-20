@@ -97,7 +97,7 @@ fetch ("/.json.js")
 .catch (err=>console.log(err))
 }*/
 function conseguirDatos () {
-    fetch ("file:///F:/coder%20belen/clase%209-js/subject.json ")
+    fetch (" https://github.com/mariadrey17/pruebajson/blob/main/subject.json")
     .then (resp=>resp.json ())
     .then (info=>(console.log(info)))
     .catch (err=>(console.log(err)))
