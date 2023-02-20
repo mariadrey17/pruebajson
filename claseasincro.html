@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calcularCalificaciones">
+        <div>
+          <label for="nota1">Ingresa tu primera nota</label>
+          <input type="text" id="nota1" required>
+        </div>
+        <br>
+        <br>
+        <div>
+
+          <label for="nota2">Ingresa tu segunda nota</label>
+          <input type="text" id="nota2" required>
+
+        </div>
+       <br>
+       <br>
+
+        <div>
+
+          <label for="nota3">Ingresa tu tercera nota</label>
+          <input type="text" id="nota3" required>
+        </div>
+         <br>
+         <br>
+        <div>
+
+          <span id="notaLetra"></span>
+          
+        </div>
+        
+
+    <input type ="button" value="calcular" onclick="calculando ( 'nota1', 'nota2','nota3')" >
+
+
+
+    <p id="datosMesa"></p>
+
+    <br>
+    <br>
+
+ 
+
+    <br>
+    <br>
+   <div id="anotacion ">
+    <div>
+      <label for="nombreYApellido">Ingresa tu nombre y apellido</label>
+      <input type="text" id="nombreYApellido" required>
+    </div>
+    <br>
+    <br>
+    <div>
+
+      <label for="materia">Ingresa la materia </label>
+      <input type="text" id="materia" required>
+
+    </div>
+   <br>
+   <br>
+   <div>
+
+    <label for="fecha">Ingresa fecha</label>
+    <input type="text" id="fecha" required>
+
+  </div>
+  <br>
+
+  <span id="rindo"></span>
+<br>
+  <input type ="button" value="anotarse" onclick="quieroRendir ( 'nombreYApellido', 'materia','fecha')">
+  
+   
+     <br>
+     <br>
+
+
+
+
+
+     <p id="verMateriaDisponible"></p>
+     
+     <div>
+       <label for="materiaElegida">Ingresa la materia que queres rendir</label>
+       <input type="text" id="materiaElegida" required>
+     </div>
+       
+   <button id="btnVerCupo">ver si hay cupo disponible</button>
+
+
+    <script src="./claseasincro.js"></script>
+</body>
+</html>
